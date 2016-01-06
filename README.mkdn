@@ -15,7 +15,16 @@ Then to sync up:
 
     repo sync -c -j16
 
-Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
+Building
+--------
 
-For more information on this Github Organization and how it is structured,
-please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
+This manifest will already come with the Zenfone 5 device files,
+so all you need to do is build it.
+
+    . build/envsetup.sh
+
+    lunch cm_a500cg-user
+
+    make -j16
+
+Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) or [Android Docs](https://source.android.com/source/building.html) for more building instructions.
