@@ -13,7 +13,7 @@ To initialize your local repository using the CyanogenMod trees, use a command l
 
 Then to sync up:
 
-    repo sync
+    repo sync -c -j16
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
 
