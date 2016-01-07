@@ -560,7 +560,7 @@
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
 
   <!-- Our files -->
-  <project path="device/asus/a500cg" name="zf5/android_device_asus_a500cg" remote="github" revision="refs/heads/RR-5.5.5" />
+  <project path="device/asus/a500cg" name="dgadelha/android_device_asus_a500cg" remote="github" revision="refs/heads/master" />
   <project path="vendor/asus/a500cg" name="zf5/android_vendor_asus_a500cg" remote="github" revision="refs/heads/master" />
-  <project path="device/intel/common" name="zf5/android_device_intel_common" remote="github" revision="refs/heads/cm-12.0" />
+  <!-- <project path="device/intel/common" name="zf5/android_device_intel_common" remote="github" revision="refs/heads/cm-12.0" /> -->
 </manifest>
