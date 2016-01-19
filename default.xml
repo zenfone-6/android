@@ -443,6 +443,7 @@
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
+  <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="CyanogenMod/android_packages_apps_InCallUI" />
@@ -563,6 +564,6 @@
   <project path="device/asus/a500cg" name="dgadelha/android_device_asus_a500cg" remote="github" revision="refs/heads/master" />
   <project path="vendor/asus/a500cg" name="tank0412/android_vendor_asus_a500cg" remote="github" revision="refs/heads/master" />
   <!-- <project path="device/intel/common" name="zf5/android_device_intel_common" remote="github" revision="refs/heads/cm-12.0" /> -->
-  <project path="hardware/intel/img/psb_video" name="nels83/android_hardware_intel_img_psb_video" groups="intel" remote="github" revision="refs/heads/android-5.1.1_r26" />
-  <project path="hardware/intel/ufo" name="android-ia/hardware_intel_ufo" groups="intel" remote="github" revision="refs/heads/master" />
+  <!-- <project path="hardware/intel/img/psb_video" name="nels83/android_hardware_intel_img_psb_video" groups="intel" remote="github" revision="refs/heads/android-5.1.1_r26" />
+  <project path="hardware/intel/ufo" name="android-ia/hardware_intel_ufo" groups="intel" remote="github" revision="refs/heads/master" /> -->
 </manifest>
