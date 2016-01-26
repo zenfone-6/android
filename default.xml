@@ -564,7 +564,9 @@
   <!-- Our files -->
   <project path="device/asus/a500cg" name="zf5/android_device_asus_a500cg" remote="github" revision="refs/heads/master" />
   <project path="vendor/asus/a500cg" name="zf5/android_vendor_asus_a500cg" remote="github" revision="refs/heads/base-3.23.40.60" />
-  <!-- <project path="device/intel/common" name="zf5/android_device_intel_common" remote="github" revision="refs/heads/cm-12.0" /> -->
-  <!-- <project path="hardware/intel/img/psb_video" name="nels83/android_hardware_intel_img_psb_video" groups="intel" remote="github" revision="refs/heads/android-5.1.1_r26" />
+  <project path="kernel/asus/a500cg" name="zf5/android_kernel_asus_a500cg" remote="github" revision="refs/heads/android-5.0" />
+
+  <!-- PLANNED TO ADD IN FUTURE
+  <project path="hardware/intel/img/psb_video" name="nels83/android_hardware_intel_img_psb_video" groups="intel" remote="github" revision="refs/heads/android-5.1.1_r26" />
   <project path="hardware/intel/ufo" name="android-ia/hardware_intel_ufo" groups="intel" remote="github" revision="refs/heads/master" /> -->
 </manifest>
