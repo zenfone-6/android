@@ -588,5 +588,5 @@
 
   <!-- ASUS Zenfone 5 specific code -->
   <project path="device/asus/a500cg" name="zf5/android_device_asus_a500cg" remote="github" />
-  <project path="vendor/asus/a500cg" name="zf5/android_vendor_asus_a500cg" remote="github" />
+  <project path="vendor/asus/a500cg" name="tank0412/android_vendor_asus_a500cg" remote="github" />
 </manifest>
