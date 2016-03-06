@@ -440,7 +440,7 @@
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
-  <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
+  <!-- <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" /> -->
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" />
@@ -588,6 +588,7 @@
   
   <!-- Updated CyanogenMod sources -->
   <project path="frameworks/base" name="zf5/android_frameworks_base" remote="github" revision="refs/heads/cm-12.1" />
+  <project path="packages/apps/Camera2" name="zf5/android_packages_apps_Camera2" remote="github" revision="refs/heads/cm-12.1" />
 
   <!-- ASUS Zenfone 5 specific code -->
   <project path="device/asus/a500cg" name="zf5/android_device_asus_a500cg-20160303" remote="github" revision="refs/heads/master" />
