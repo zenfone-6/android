@@ -335,7 +335,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
+  <!-- <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" /> -->
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -585,8 +585,15 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
+  
+  <!-- Updated CyanogenMod sources -->
+  <project path="frameworks/base" name="zf5/android_frameworks_base" remote="github" revision="refs/heads/cm-12.1" />
 
   <!-- ASUS Zenfone 5 specific code -->
-  <project path="device/asus/a500cg" name="zf5/android_device_asus_a500cg-20160303" remote="github" revision="master" />
-  <project path="vendor/asus/a500cg" name="tank0412/android_vendor_asus_a500cg" remote="github" revision="master" />
+  <project path="device/asus/a500cg" name="zf5/android_device_asus_a500cg-20160303" remote="github" revision="refs/heads/master" />
+  <project path="vendor/asus/a500cg" name="tank0412/android_vendor_asus_a500cg" remote="github" revision="refs/heads/master" />
+  <project path="kernel/asus/a500cg" name="zf5/android_kernel_asus_a500cg" remote="github" revision="refs/heads/development" />
+  
+  <!-- Intel Vendor specific code -->
+  <project path="vendor/intel/hardware/camera_extension" name="zf5/android_vendor_intel_hardware_camera_extension" remote="github" revision="refs/heads/redhookbay/a50" />
 </manifest>
