@@ -591,8 +591,8 @@
   <project path="packages/apps/Camera2" name="zf5/android_packages_apps_Camera2" remote="github" revision="refs/heads/cm-12.1" />
 
   <!-- ASUS Zenfone 5 specific code -->
-  <project path="device/asus/a500cg" name="zf5/android_device_asus_a500cg-20160303" remote="github" revision="refs/heads/master" />
-  <project path="vendor/asus/a500cg" name="tank0412/android_vendor_asus_a500cg" remote="github" revision="refs/heads/master" />
+  <project path="device/asus/a500cg" name="zf5/android_device_asus_a500cg" remote="github" revision="refs/heads/tests-2" />
+  <project path="vendor/asus/a500cg" name="zf5/android_vendor_asus_a500cg" remote="github" revision="refs/heads/tests-2" />
   <project path="kernel/asus/a500cg" name="zf5/android_kernel_asus_a500cg" remote="github" revision="refs/heads/development" />
   
   <!-- Intel Vendor specific code -->
