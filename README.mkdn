@@ -18,7 +18,7 @@ Then to sync up:
 Building
 --------
 
-This manifest will already come with the Zenfone 5 device files,
+This manifest will already come with the Zenfone 6 device files,
 so all you need to do is build it.
 
     . build/envsetup.sh
