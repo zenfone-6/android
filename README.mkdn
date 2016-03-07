@@ -1,4 +1,4 @@
-CyanogenMod (Zenfone 5)
+CyanogenMod (Zenfone 6)
 =======================
 
 Getting Started
@@ -9,7 +9,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/zf5/android.git -b cm-12.1
+    repo init -u git://github.com/zenfone-6/android.git -b cm-12.1
 
 Then to sync up:
 
@@ -23,7 +23,7 @@ so all you need to do is build it.
 
     . build/envsetup.sh
 
-    lunch cm_a500cg-user
+    lunch cm_a600cg-userdebug
 
     make -j16
 
