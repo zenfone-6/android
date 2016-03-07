@@ -588,11 +588,19 @@
   <!-- Updated CyanogenMod sources -->
   <project path="frameworks/base" name="zf5/android_frameworks_base" remote="github" revision="refs/heads/cm-12.1" />
   <project path="packages/apps/Camera2" name="zf5/android_packages_apps_Camera2" remote="github" revision="refs/heads/cm-12.1" />
+  
+  <!-- ASUS specific code for kernel -->
+  <project path="device/asus/clovertrail" name="zf5/android_device_asus_clovertrail" remote="github" revision="refs/heads/master" />
+  <project path="device/intel/common" name="zf5/android_device_intel_common" remote="github" revision="refs/heads/master" />
+  <project path="external/alsa-lib" name="zf5/android_external_alsa-lib" remote="github" revision="refs/heads/master" />
+  <project path="external/alsa-utils" name="zf5/android_external_alsa-utils" remote="github" revision="refs/heads/master" />
 
   <!-- ASUS Zenfone 5 specific code -->
   <project path="device/asus/a500cg" name="zf5/android_device_asus_a500cg" remote="github" revision="refs/heads/tests-2" />
   <project path="vendor/asus/a500cg" name="zf5/android_vendor_asus_a500cg" remote="github" revision="refs/heads/tests-2" />
-  <project path="kernel/asus/a500cg" name="zf5/Kernel-for-Zenfone-5-by-BORETS24" remote="github" revision="refs/heads/master" />
+  <project path="kernel/asus/a500cg" name="zf5/Kernel-for-Zenfone-5-by-BORETS24" remote="github" revision="refs/heads/master">
+    <copyfile src="KernelMakefile" dest="KernelMakefile" />
+  </project>
 
   <!-- Intel specific code -->
   <project path="hardware/intel" name="zf5/android_hardware_intel" groups="intel" remote="github" revision="refs/heads/master" />
